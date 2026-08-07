@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div style="width: 100%; height: 100%; border:1px color=skyblue; background-color: skyblue;" >
+    <h1 style="text-align: center; margin:0px; padding:4px;">BUG TRACKER</h1>
+    <h3 style="text-align: center; padding-bottom: 4px;">Report all bugs</h3></div>
+
+    <form  >
+        <div align="center">
+        <label for="bugtitle" >Bug Title <sup style="color: red;">*</sup> </label><br><br>
+        <input type="text" style="width: 50%; padding: 4px; font-size :18px;" placeholder="Bugs Name"><br><br>
+        <label for="issue Desciption">Issue Description <sup style="color: red;">*</sup></label><br><br>
+       <textarea style="min-width: 50%; min-height:80px;" name="text" id="text" placeholder="Description...."></textarea><br><br>
+       <label for="operatingsystem">Operating System <sup style="color: red;">*</sup></label><br><br>
+       <select name="operatingsystem" id="operatingsystem" style="width: 50%;padding: 4px;">
+        <option value="disabledselected" align="center" >Select Operating System</option>
+        <option value="window" align="center">Windows</option>
+        <option value="mac" align="center">Mac</option>
+        <option value="linux" align="center">Linux</option>
+        <option value="ios" align="center">IOS</option>
+        <option value="android" align="center">Android</option>
+       </select>
+       </div>
+       <br></br>
+       <div align="center">
+       <label for="browser">Browser <sup style="color: red;">*</sup></label><br><br>
+       </div>
+       <div align="center" style="margin-left:370px ; margin-right: 70px;">
+        <div align="left">
+       <input type="radio" name="chrome">
+       <label for="chrome">Chrome</label><br>
+       <input type="radio" name="chrome">
+       <label for="internetexplorer" >Internet Explorer</label><br>
+       <input type="radio" name="chrome">
+        <label for="firefoxSafari">Firefox</label><br>
+         <input type="radio" name="chrome">
+              <label for="Safari">Safari</label><br>
+       <input type="radio" name="chrome">
+              <label for="opera">Opera</label><br>
+       <input type="radio" name="chrome">
+              <label for="other">Other</label><br>
+              </div>
+              </div>
+              <br><br>
+              <div align="center">
+              <label for="assignedto">Assigned To <sup style="color: red;" >*</sup></label><br><br>
+              <select name="assignedto" id="assignedto" style="width: 50%;padding: 4px;">
+        <option value="disabledselected" align="center" >Select Below Option</option>
+        <option value="window" align="center">Developer Name</option>
+        <option value="mac" align="center">Frontend Developer</option>
+        <option value="linux" align="center">Backend Developer</option>
+        <option value="ios" align="center">QA Engineer</option>
+        <option value="android" align="center">Team Lead</option>
+        <option value="android" align="center">Unassigned (default)</option></select><br><br>
+<!-- Priority -->
+
+          <label for="Priority">Priority <sup style="color: red;">*</sup></label><br><br>
+          <select name="prority" id="priority" style="width: 50%;padding: 4px;">
+        <option value="disabledselected" align="center" >Select Below Option</option>
+        <option value="window" align="center">Low</option>
+        <option value="mac" align="center">Medium</option>
+        <option value="linux" align="center">High</option>
+        <option value="ios" align="center">Critical</option></option></select><br><br>
+
+        <!-- Screenshot -->
+         <label for="image">Screenshot <sup style="color: red;">*</sup></label><br><br>
+         <input type="file" style="border: 1px solid black; padding: 10px;" id="image" name="image" accept="image/*"> <br><br><br>
+
+         
+    </div>
+    <div align="center" >
+     <button style="width: 50%; height: 100%; border:5px color=skyblue; background-color: red; border-radius: 10px;">SUBMIT</button><br><br><br><br>
+    </div>    
+    </form>
+</body>
+</html>

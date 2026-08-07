@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        p::first-letter{
+            font-size: 80px;
+            color: black;
+        }
+        p::first-line{
+            color: red;
+        }
+        p::selection{
+            background-color: rgb(red, green, blue);
+            color: darkblue;
+        }
+        /* ol>li::marker{
+            color: red;
+        } */
+         ::marker{
+            color: red;
+         }
+
+         h1::before{
+            content: "🤷‍♂️";
+            font-size: 20px;
+         }
+         h1::after{
+            content: "😎";
+            font-size: 20px;
+         }
+    </style>
+</head>
+<body>
+    <h1>Learn Pseudo Element Selector</h1>
+    <P>
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tenetur, accusamus ipsa. Sapiente repellendus sequi atque sit doloremque, commodi est officia earum odio suscipit autem eligendi, porro consequatur eius, beatae totam?
+    </P>
+
+    <ol>
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>JS</li>
+    </ol>
+</body>
+</html>

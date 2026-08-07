@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>learn form in html</h1>
+
+    <form>
+<label for="username">username</label>
+<input type="text"
+name="username"
+id="username"
+placeholder="Enter user name">
+<br>
+<label for="email">Email</label>
+<input type="text" name="email" id="email" placeholder="Enter your Email">
+<br>
+<label for="password">Password</label>
+<input type="password" name="password" id="Password" placeholder="Enter your password">
+<br>
+<label for="dob">Date of Birth</label>
+
+<input type="date" name="dob" id="dob">
+<br>
+<label for="gender">Gender</label>
+<label for="male">Male</label>
+<input type="radio" name="gender" id="male">
+<label for="female">Female</label>
+<input type="radio" name="gender" id="female">
+<br>
+<label for="country">Country</label>
+<select name="country" id="country">
+    <option value="India">India</option>
+<option value="China">china</option>
+<option value="Bhutan">India</option>
+<option value="Nepal">china</option>
+</select>
+<br>
+<label for="address">Address</label>
+<textarea name="address" id="address"></textarea>
+
+<br>
+<label for="hobbies">Hobbies</label>
+<br>
+<label for="coding"></label>
+<input type="checkbox" name="hobbies" id="coding" value="coding">
+<label for="Gaming">Gaming</label>
+<input type="checkbox" name="hobbies" id="gaming" value="gaming">
+
+<br>
+<label for="phoneno">Phone No</label>
+<input type="tel" name="phoneno" id="phoneno" maxlength="10" minlength="10">
+<br>
+<label for="time">Time</label>
+<input type="time" name="time" id="time">
+<br>
+<label for="favcolor">Fav Color</label>
+<input type="favcolor" name="favcolor" id="favcolor">
+<br>
+<label for="week">WEEK</label>
+<input type="week" name="week" id="week">
+<br>
+
+
+<br>
+
+<button>Submit</button>
+
+
+
+    </form>
+    <!--new form tabel  -->
+
+
+    <form >
+        <table border="1" cellpadding="10">
+            <tr>
+            <td>
+                <label for="username">Username</label>
+            </td>
+            <td>
+                <input type="text" name="username" id="username">
+            </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="email">Email</label>
+                </td>
+                <td>
+                    <input type="email" name="email" id="email">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="dob">Date of Birth</label>
+                </td>
+                <td>
+                    <input type="dob" name="dob" id="dob">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="gender">Gender</label>
+                </td>
+                <td>
+                    <label for="male">MALE</label>
+                
+                    <input type="radio" name="male" id="male">
+                
+                    <label for="female">FEMALE</label>
+                
+                    <input type="radio" name="female" id="female">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="country">Country</label>
+                </td>
+                <td>
+                    <select name="country" id="country">
+                        <option value=""disabled selected>Select Country</option>
+                        <option value="india">India</option>
+                        <option value="china">China</option>
+                        <option value="nepal">Nepal</option>
+                        <option value="usa">USA</option>
+                        
+
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="course">Course</label>
+                </td>
+                <td>
+                    <input type="text" name="course" id="dob">
+                </td>
+            </tr>
+        </table>
+    </form>
+</body>
+</html>

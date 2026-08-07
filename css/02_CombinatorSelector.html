@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* DECENDENT: target child as well as nested child   */
+        section div{
+            background-color: rgb(134, 187, 234);
+        }
+        /* Child: target direct child */
+        section > div{
+            background-color: rgb(157, 153, 86);
+        }
+        section ~ div{
+            background-color: rgb(102, 102, 154);
+        }
+
+        /* ADJACENT SIBLING: target nested div after section closing tag */
+        section + div{
+            background-color: aqua;
+        }
+    </style>
+</head>
+<body>
+    <h1>Learn Combinator Selector</h1>
+
+<!-- Combinator selector
+ 
+1> DECEDENT   Section   div{}
+2> Child    >
+3> General Sibling   ~  Tilde
+4> Adjacent Sibling +   
+
+-->
+
+<section>
+    <div>div 1</div>
+    <div>div 2</div>
+
+    <article>
+        <div>div 3</div>
+        <div>div 4</div>
+    </article>
+<div>div 5</div>
+</section>
+
+
+<div>div 6</div>
+<div>div 7</div>
+<aside>aside 1</aside>
+<div>div 8</div>
+</body>
+</html>
