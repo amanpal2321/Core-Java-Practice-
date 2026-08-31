@@ -1,2 +1,1 @@
-it’s core Java practice repositories
-shows code of oops concept in core Java 
+Core Java Practice repositories which contain all core Java topics.
